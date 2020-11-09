@@ -346,8 +346,8 @@ export default function ViewTable() {
             </div>
 
             <div className="row">
-                <button className="btn btn-primary col-2" style={{"margin-right": "10px"}} onClick={() => sortIdOrder()}>Номеру</button>
-                <button className="btn btn-primary col-2" style={{"margin-right": "10px"}} onClick={() => sortTimeOrder()}>Дате</button>
+                <button className="btn btn-primary col-2" style={{"margin-right": "10px"}} onClick={() => sortIdOrder()}>Номер</button>
+                <button className="btn btn-primary col-2" style={{"margin-right": "10px"}} onClick={() => sortTimeOrder()}>Дата</button>
                 <button className="btn btn-primary col-2" style={{"margin-right": "10px"}} onClick={() => sortATIOrder()}>ATI</button>
             </div>
             <hr/>
